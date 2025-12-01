@@ -1,60 +1,122 @@
 {% comment %}
-=== HANA BEAUTY | BLOCO DE CAMPANHA BLACK NOVEMBER ===
-Versão: 1.0
-Data de Deploy: {{ 'now' | date: "%d/%m/%Y %H:%M:%S" }}
-Responsável: Agent Codex (via Oráculo do Ecommerce)
-Descrição:
-  Este bloco substitui temporariamente o Programa Profissional durante a Black November.
-  Foco: aumentar conversão consultiva via WhatsApp, reforçando escassez e exclusividade.
-Referências:
-  - Hana Premium Product SEO Framework
-  - Manual de Treinamento Hana Beauty
-  - Instruções de UX & SEO emitidas por Oráculo do Ecommerce
-  - Campanha vigente: Black November 2025
+HANA BEAUTY • Programa Profissional
+- Bloco padrão para apresentação do programa técnico e captura via WhatsApp.
+- Mantém layout premium e copy consultiva para studios, salões e profissionais certificados.
 {% endcomment %}
 
-<section class="hana-black-november-block" style="padding:32px; border-radius:24px; background:#f8f8f8; color:#111; margin-top:32px; margin-bottom:40px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-  
-  <div class="hana-bn-header" style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
-    <span style="font-size:20px;">🖤</span>
-    <h2 style="font-size:20px; font-weight:700; margin:0;">
-      Black November • Condição Premium Limitada
-    </h2>
+{%- assign variant = product.selected_or_first_available_variant -%}
+{%- assign sku = variant.sku | default: 'N/A' -%}
+{%- assign snippet_id = block.id | default: section.id | default: 'hb-pro' -%}
+{%- assign in_stock = variant.available -%}
+
+<div
+  class="hana-pro-cta"
+  data-hb-pro-program
+  data-product-title="{{ product.title | strip_html | escape }}"
+  data-product-sku="{{ sku | escape }}"
+  data-whatsapp-phone="5511947393315"
+>
+  <div class="hana-pro-cta__header">
+    <span class="hana-pro-badge">Programa Profissional</span>
+    <h2 class="hana-pro-title">Estoque Garantido &amp; Preço de Volume</h2>
+    <p class="hana-pro-sub">
+      Para studios e salões de alta demanda que precisam de <strong>abastecimento estável</strong>,
+      <strong>prazo garantido</strong> e <strong>condição profissional</strong> em compras recorrentes.
+    </p>
   </div>
 
-  <p style="font-size:16px; line-height:1.6; margin-bottom:20px;">
-    Durante a <strong>Black November</strong>, profissionais certificados <strong>Hana Beauty</strong> têm acesso à 
-    <strong>condição de abastecimento garantido com preço de volume</strong>, mesmo para pedidos reduzidos.<br><br>
-    Aproveite <em>estoque limitado</em>, <em>entrega prioritária</em> e <em>condições exclusivas até 30/11</em> — disponíveis apenas para 
-    CNPJs verificados e profissionais cadastrados no programa técnico.
-  </p>
-
-  <ul style="list-style:none; padding-left:0; margin-bottom:28px;">
-    <li style="margin-bottom:8px;">✔ Estoque garantido por contrato (quantidades limitadas para novas adesões)</li>
-    <li style="margin-bottom:8px;">✔ Condição de volume válida até <strong>30/11</strong></li>
-    <li style="margin-bottom:8px;">✔ Atendimento técnico prioritário Black November</li>
-    <li style="margin-bottom:8px;">✔ Entrega programada express (quinzenal ou mensal)</li>
-    <li>✔ Suporte direto com especialista AmLash</li>
+  <ul class="hana-pro-benefits" aria-label="Benefícios para profissionais">
+    <li>✔ Estoque garantido por contrato</li>
+    <li>✔ Condição de preço por volume</li>
+    <li>✔ Atendimento técnico prioritário</li>
+    <li>✔ Entrega programada (mensal/quinzenal)</li>
   </ul>
 
-  {% comment %}
-  Patch Update 2025-11-05 | Correção de link WhatsApp oficial
-  Número atualizado para: +55 (11) 94739-3315
-  Motivo: Placeholder removido, substituído pelo canal comercial ativo da Hana Beauty.
-  Ação executada automaticamente pelo Agent Codex conforme instrução do Oráculo do Ecommerce.
-  {% endcomment %}
+  <div class="hana-pro-form">
+    <div class="hana-pro-field">
+      <label for="hana-pro-volume-{{ snippet_id }}">Volume mensal desejado (unidades)</label>
+      <div class="hana-pro-control">
+        <select
+          id="hana-pro-volume-{{ snippet_id }}"
+          class="hana-pro-select"
+          aria-label="Selecione o volume mensal"
+          data-hb-pro-volume
+        >
+          <option value="5">5 un</option>
+          <option value="10">10 un</option>
+          <option value="25">25 un</option>
+          <option value="50">50 un</option>
+          <option value="100">100 un</option>
+          <option value="custom">Outro…</option>
+        </select>
+        <input
+          id="hana-pro-volume-custom-{{ snippet_id }}"
+          class="hana-pro-input"
+          type="number"
+          min="1"
+          step="1"
+          inputmode="numeric"
+          placeholder="Digite o volume"
+          aria-label="Informe outro volume"
+          data-hb-pro-volume-custom
+          hidden
+        >
+      </div>
+    </div>
 
-  <a href="https://wa.me/5511947393315?text=Ol%C3%A1%20Hana%20Beauty!%20Quero%20acessar%20a%20Condi%C3%A7%C3%A3o%20Profissional%20Black%20November."
-     target="_blank"
-     rel="noopener"
-     style="display:inline-block; background:#000; color:#fff; font-weight:600; padding:14px 24px; border-radius:8px; text-decoration:none; transition:all 0.3s ease; text-transform:uppercase;"
-     onmouseover="this.style.backgroundColor='#c6a34f'; this.style.color='#000';"
-     onmouseout="this.style.backgroundColor='#000'; this.style.color='#fff';">
-     🖤 Acessar Condição Black November via WhatsApp
-  </a>
+    <div class="hana-pro-field">
+      <label for="hana-pro-frequency-{{ snippet_id }}">Frequência de abastecimento</label>
+      <div class="hana-pro-control">
+        <select
+          id="hana-pro-frequency-{{ snippet_id }}"
+          class="hana-pro-select"
+          aria-label="Selecione a frequência"
+          data-hb-pro-frequency
+        >
+          <option value="Mensal">Mensal</option>
+          <option value="Quinzenal">Quinzenal</option>
+          <option value="Trimestral">Trimestral</option>
+        </select>
+      </div>
+    </div>
 
-  <p style="font-size:13px; color:#666; margin-top:12px;">
-    *Atendimento consultivo exclusivo para profissionais e CNPJs certificados.*
-  </p>
-</section>
+    <div class="hana-pro-meta" aria-live="polite">
+      {%- if in_stock -%}
+        <span class="hana-pro-chip ok">Status: Pronto para envio</span>
+      {%- else -%}
+        <span class="hana-pro-chip warn">Status: Sob demanda — agende reposição</span>
+      {%- endif -%}
+      <span class="hana-pro-light">SKU: {{ sku }}</span>
+    </div>
 
+    <a
+      class="hana-pro-btn"
+      href="#"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar com especialista pelo WhatsApp"
+      data-hb-pro-whats
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="hana-pro-icon"
+        viewBox="0 0 24 24"
+        width="22"
+        height="22"
+        aria-hidden="true"
+      >
+        <path
+          fill="#25D366"
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.149-.672.149-.198.297-.771.967-.945 1.165-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.672-1.618-.921-2.217-.242-.579-.487-.5-.672-.51l-.573-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.571-.347z"
+        />
+        <path
+          fill="#25D366"
+          d="M12.004 2.003C6.482 2.003 2 6.485 2 12.006c0 2.114.615 4.07 1.689 5.718L2 22l4.379-1.653A9.982 9.982 0 0 0 12.004 22c5.522 0 10.004-4.482 10.004-9.994S17.525 2.003 12.004 2.003zm0 18.003a8.01 8.01 0 0 1-4.226-1.18l-.302-.18-2.598.98.99-2.535-.196-.319A8.02 8.02 0 0 1 4 12.006c0-4.411 3.592-8.003 8.004-8.003 4.413 0 8.005 3.592 8.005 8.003 0 4.412-3.592 8.002-8.005 8.002z"
+        />
+      </svg>
+      <span>Condição Profissional • WhatsApp</span>
+    </a>
+
+    <p class="hana-pro-note">Atendimento consultivo exclusivo para CNPJ e profissionais certificados.</p>
+  </div>
+</div>

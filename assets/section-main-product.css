@@ -138,12 +138,6 @@ product-info {
   white-space: nowrap;
 }
 
-.bn-theme .hana-discount-badge-media {
-  background: rgba(239, 68, 111, 0.15);
-  color: #fecaca;
-  border: 1px solid rgba(248, 113, 113, 0.45);
-}
-
 @media (max-width: 640px) {
   .hana-discount-badge-media {
     top: 8px;
