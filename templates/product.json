@@ -113,10 +113,6 @@
         "essential_upsell_app_block_haC6t6": {
           "type": "shopify://apps/essential-upsell/blocks/app-block/50627fd9-24fd-4250-8614-accc12826d80",
           "settings": {}
-        },
-        "essential_countdown_app_block_722378e8": {
-          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {}
         }
       },
       "block_order": [
@@ -125,7 +121,6 @@
         "judge_me_reviews_preview_badge_fpadGQ",
         "collapsible_tab_pg8Wjy",
         "price",
-        "essential_countdown_app_block_722378e8",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -143,7 +138,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-55fcd67b-9427-4155-aca4-24b601997eef",
+        "color_scheme": "scheme-1",
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -171,7 +166,7 @@
         "products_to_show": 4,
         "columns_desktop": 4,
         "columns_mobile": "2",
-        "color_scheme": "scheme-ca152d7b-b92c-4264-a6b4-33deb2b8f752",
+        "color_scheme": "scheme-5",
         "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
