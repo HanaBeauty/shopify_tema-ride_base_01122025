@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEWSLETTER HANA BEAUTY",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Não fique de fora das nossas novidades e ofertas especiais, inscreva-se na nossa Newsletter para acompanhar tudo de pertinho.</p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-55fcd67b-9427-4155-aca4-24b601997eef",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 56
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_MmUyHq": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Inconstitucional",
+            "menu": "info-footer"
+          }
+        },
+        "link_list_loja": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Loja",
+            "menu": "loja-rodape"
+          }
+        },
+        "link_list_zHk6Ra": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Sac",
+            "menu": "footer"
+          }
+        },
+        "link_list_z7cF9H": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Menu Cliente",
+            "menu": "customer-account-main-menu"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_MmUyHq",
+        "link_list_loja",
+        "link_list_zHk6Ra",
+        "link_list_z7cF9H"
+      ],
+      "settings": {
+        "color_scheme": "scheme-55fcd67b-9427-4155-aca4-24b601997eef",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "newsletter",
+    "footer"
+  ]
+}

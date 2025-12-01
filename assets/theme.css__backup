@@ -1,0 +1,18 @@
+/* HANA BEAUTY - THEME CLASSIC v1.9 */
+:root {
+  --hana-magenta: #d63484;
+  --hana-gray: #f5f5f5;
+}
+body {
+  background-color: var(--hana-gray);
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn {
+  background-color: var(--hana-magenta);
+  color: #fff;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: #b42d6e;
+}

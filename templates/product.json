@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_fpadGQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "collapsible_tab_pg8Wjy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Informações Técnicas",
+            "icon": "clipboard",
+            "content": "<p>{{ product.metafields.hana.json_ld.value }}</p>",
+            "page": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "ecomrise_trust_badge_app_block_JbDUMj": {
+          "type": "shopify://apps/ecomrise-upsell-bundle/blocks/trust-badge-app-block/acb8bab5-decc-4989-8fb5-41075963cdef",
+          "disabled": true,
+          "settings": {
+            "message": "Formas de pagamento",
+            "size": 10,
+            "type": "custom",
+            "source_img": "svg",
+            "wimg": 60,
+            "svg": "master,visa,elo,american_express,pix,boleto,",
+            "height": 30
+          }
+        },
+        "custom_liquid_X9r6QG": {
+          "type": "custom_liquid",
+          "name": "Formas de pagamentos",
+          "settings": {
+            "custom_liquid": "{%- comment -%}\nHANA BEAUTY • Formas de pagamento (Pix, Mastercard, Visa, Elo, Amex e Boleto)\n{%- endcomment -%}\n\n<section id=\"hana-pay\" class=\"hana-pay\" aria-labelledby=\"hana-pay-title\">\n  <h3 id=\"hana-pay-title\" class=\"hana-pay__title\">Formas de pagamento</h3>\n\n  <div class=\"hana-pay__row\" role=\"list\" aria-label=\"Bandeiras aceitas\">\n    <!-- Pix -->\n    <span class=\"hana-pay__flag\" role=\"listitem\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0808/3243/0388/files/pix.svg?v=1760291283\"\n           alt=\"Pix\" width=\"84\" height=\"36\" loading=\"lazy\" decoding=\"async\">\n    </span>\n\n    <!-- Mastercard -->\n    <span class=\"hana-pay__flag\" role=\"listitem\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0808/3243/0388/files/master_card-1.svg?v=1760291283\"\n           alt=\"Mastercard\" width=\"84\" height=\"36\" loading=\"lazy\" decoding=\"async\">\n    </span>\n\n    <!-- Visa -->\n    <span class=\"hana-pay__flag\" role=\"listitem\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0808/3243/0388/files/visa-1.svg?v=1760291283\"\n           alt=\"Visa\" width=\"84\" height=\"36\" loading=\"lazy\" decoding=\"async\">\n    </span>\n\n    <!-- Elo -->\n    <span class=\"hana-pay__flag\" role=\"listitem\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0808/3243/0388/files/elo.svg?v=1760291284\"\n           alt=\"Elo\" width=\"84\" height=\"36\" loading=\"lazy\" decoding=\"async\">\n    </span>\n\n    <!-- Amex -->\n    <span class=\"hana-pay__flag\" role=\"listitem\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0808/3243/0388/files/amex.svg?v=1760291283\"\n           alt=\"American Express\" width=\"84\" height=\"36\" loading=\"lazy\" decoding=\"async\">\n    </span>\n\n    <!-- Boleto -->\n    <span class=\"hana-pay__flag\" role=\"listitem\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0808/3243/0388/files/boleto.png?v=1760326249\"\n           alt=\"Boleto bancário\" width=\"84\" height=\"36\" loading=\"lazy\" decoding=\"async\">\n    </span>\n  </div>\n</section>\n\n<style>\n.hana-pay {\n  border: 1px solid #eee;\n  border-radius: 16px;\n  padding: 16px;\n  background: #fff;\n  box-shadow: 0 2px 10px rgba(0,0,0,.03);\n  color: #373737;\n}\n\n.hana-pay__title {\n  margin: 0 0 10px;\n  font-size: .95rem;\n  font-weight: 800;\n  letter-spacing: .01em;\n  color: #373737;\n}\n\n/* Bandeiras */\n.hana-pay__row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 10px;\n  align-items: center;\n}\n\n.hana-pay__flag {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 6px 8px;\n  border: 1px solid #eee;\n  border-radius: 10px;\n  background: #fff;\n  transition: transform .15s ease, box-shadow .2s ease;\n}\n\n.hana-pay__flag:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 6px 12px rgba(0,0,0,.06);\n}\n\n.hana-pay__flag img {\n  display: block;\n  height: 28px;\n  width: auto;\n}\n\n@media (max-width: 480px) {\n  .hana-pay {\n    padding: 14px;\n    border-radius: 14px;\n  }\n\n  .hana-pay__flag img {\n    height: 30px;\n  }\n}\n</style>"
+          }
+        },
+        "custom_liquid_MADVPJ": {
+          "type": "custom_liquid",
+          "name": "Liquid Frete Grátis",
+          "settings": {
+            "custom_liquid": "{% render 'hb-dynamic-free-shipping-banner' %}"
+          }
+        },
+        "custom_liquid_Vp7qHa": {
+          "type": "custom_liquid",
+          "name": "WhatsApp - Atacado",
+          "settings": {
+            "custom_liquid": "{% render 'hb-professional-program' %}"
+          }
+        },
+        "custom_liquid_9dJxqk": {
+          "type": "custom_liquid",
+          "name": "WhatsApp - Instagram - SendPulse",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<!-- SendPulse WhatsApp/Instagram Widget -->\n<script src=\"//fbstore.sendpulse.com/loader.js\"\n        data-sp-widget-id=\"00e525f3-9a59-42cf-8eb8-ffa1892c3c3c\"\n        async></script>\n<!-- /SendPulse Widget -->\n\n<script>\n(function () {\n  // ========= Helpers =========\n  function getUserEmail() {\n    try {\n      // Mantém compatibilidade com sua chave antiga\n      const localEmail = localStorage.getItem(\"email_usuario\");\n      if (localEmail) return localEmail;\n\n      // Tentativas adicionais (Shopify/checkout etc.)\n      if (window.Shopify && Shopify.customer && Shopify.customer.email) {\n        return Shopify.customer.email;\n      }\n    } catch (e) {}\n    return \"visitante\";\n  }\n\n  function pageContext() {\n    var url = new URL(window.location.href);\n    return {\n      url: url.toString(),\n      path: url.pathname,\n      host: url.host,\n      title: document.title || \"\",\n      referrer: document.referrer || \"\",\n    };\n  }\n\n  // Dispara para todos os destinos de analytics encontrados\n  function trackAll(name, props) {\n    var payload = Object.assign({\n      event: name,\n      email: getUserEmail(),\n      device: navigator.userAgent,\n      timestamp: new Date().toISOString()\n    }, props || {}, pageContext());\n\n    // GTM (dataLayer)\n    if (window.dataLayer && Array.isArray(window.dataLayer)) {\n      window.dataLayer.push(payload);\n    }\n    // GA4 (gtag)\n    if (typeof window.gtag === \"function\") {\n      window.gtag(\"event\", name, payload);\n    }\n    // Meta Pixel\n    if (typeof window.fbq === \"function\") {\n      window.fbq(\"trackCustom\", name, payload);\n    }\n    // TikTok Pixel\n    if (window.ttq && typeof window.ttq.track === \"function\") {\n      window.ttq.track(name, payload);\n    }\n    // Compat/Fallback Freshsales (se ainda existir)\n    if (typeof window.FM !== \"undefined\" && FM.trackCustomEvent) {\n      FM.trackCustomEvent(name, payload);\n    }\n    // Log de debug (remova em produção, se quiser)\n    if (window.console && console.debug) console.debug(\"[track]\", name, payload);\n  }\n\n  // Gera uma mensagem pré-preenchida para o WhatsApp + UTMs\n  function enrichWhatsAppHref(a) {\n    try {\n      var href = a.getAttribute(\"href\");\n      if (!href) return;\n\n      // Só processa links de WhatsApp\n      var isWA = /wa\\.me|api\\.whatsapp\\.com|whatsapp:\\/\\//i.test(href);\n      if (!isWA) return;\n\n      // Não duplica\n      if (a.dataset.spWatracked === \"1\") return;\n\n      var ctx = pageContext();\n      var base = href.split(\"?\")[0];\n\n      // UTM padrão para captação via widget\n      var utm = new URLSearchParams({\n        utm_source: \"sendpulse\",\n        utm_medium: \"whatsapp_widget\",\n        utm_campaign: \"lead_capture\",\n        utm_content: (document.body.dataset.pageType || \"generic\")\n      });\n\n      // Mensagem pré-preenchida (ajuste o texto conforme sua estratégia)\n      var msg = [\n        \"Olá, equipe Hana Beauty! 👋\",\n        \"Encontrei vocês pelo site e quero falar sobre este conteúdo/página:\",\n        ctx.title,\n        ctx.url + (ctx.url.includes(\"?\") ? \"&\" : \"?\") + utm.toString()\n      ].join(\"\\n\");\n\n      var params = new URLSearchParams(href.split(\"?\")[1] || \"\");\n      // Só seta text se ainda não existir\n      if (!params.has(\"text\")) {\n        params.set(\"text\", msg);\n      }\n\n      var finalHref = base + \"?\" + params.toString();\n      a.setAttribute(\"href\", finalHref);\n      a.dataset.spWatracked = \"1\";\n    } catch (e) {}\n  }\n\n  // Anexa listeners a links WhatsApp/Instagram\n  function wireLink(a) {\n    if (!a || a.dataset.spWired === \"1\") return;\n    var href = a.getAttribute(\"href\") || \"\";\n    var isWA = /wa\\.me|api\\.whatsapp\\.com|whatsapp:\\/\\//i.test(href);\n    var isIG = /instagram\\.com/i.test(href);\n\n    if (!(isWA || isIG)) return;\n\n    // Enriquecimento de WhatsApp (prefill + UTM)\n    if (isWA) enrichWhatsAppHref(a);\n\n    a.addEventListener(\"click\", function () {\n      trackAll(isWA ? \"click_whatsapp_sendpulse\" : \"click_instagram_sendpulse\", {\n        link_href: a.getAttribute(\"href\") || \"\",\n        link_text: (a.innerText || a.getAttribute(\"aria-label\") || \"\").trim()\n      });\n    }, { passive: true });\n\n    a.dataset.spWired = \"1\";\n  }\n\n  // Escaneia a página por âncoras relevantes\n  function scan() {\n    var anchors = document.querySelectorAll('a[href*=\"wa.me\"], a[href*=\"api.whatsapp.com\"], a[href^=\"whatsapp://\"], a[href*=\"instagram.com\"]');\n    anchors.forEach(wireLink);\n  }\n\n  // Observa mutações do DOM (o widget do SendPulse é injetado async)\n  var mo = new MutationObserver(function () {\n    scan();\n  });\n  mo.observe(document.documentElement || document.body, { subtree: true, childList: true, attributes: true });\n\n  // Primeira varredura\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", scan);\n  } else {\n    scan();\n  }\n})();\n</script>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartilhar"
+          }
+        },
+        "essential_upsell_app_block_haC6t6": {
+          "type": "shopify://apps/essential-upsell/blocks/app-block/50627fd9-24fd-4250-8614-accc12826d80",
+          "settings": {}
+        },
+        "essential_countdown_app_block_722378e8": {
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_fpadGQ",
+        "collapsible_tab_pg8Wjy",
+        "price",
+        "essential_countdown_app_block_722378e8",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "ecomrise_trust_badge_app_block_JbDUMj",
+        "custom_liquid_X9r6QG",
+        "custom_liquid_MADVPJ",
+        "custom_liquid_Vp7qHa",
+        "custom_liquid_9dJxqk",
+        "description",
+        "share",
+        "essential_upsell_app_block_haC6t6"
+      ],
+      "custom_css": [
+        ".price__regular {font-size: 25px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-55fcd67b-9427-4155-aca4-24b601997eef",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "17421758340c412aae": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Produtos Relacionados",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-ca152d7b-b92c-4264-a6b4-33deb2b8f752",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "17488892127d983a1f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_L9CFNR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_L9CFNR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17421758340c412aae",
+    "related-products",
+    "17488892127d983a1f"
+  ]
+}

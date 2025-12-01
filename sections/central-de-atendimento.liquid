@@ -1,0 +1,155 @@
+{% comment %}
+HANA BEAUTY — CENTRAL DE ATENDIMENTO & CONSULTORIA TÉCNICA (v1.0)
+Objetivo: Unificar WhatsApp, Email, FAQ e Rastreio em um hub leve e premium.
+Acessibilidade: ícones com alt, aria-label em CTAs, foco visível.
+GA4: eventos contact_hub_view, contact_channel_click (channel dimension).
+{% endcomment %}
+
+<section class="hana-central" aria-labelledby="central-heading">
+  <div class="hana-central__header">
+    <h1 id="central-heading">{{ section.settings.title }}</h1>
+    <p class="hana-central__subtitle">{{ section.settings.subtitle }}</p>
+  </div>
+
+  <div class="hana-central__grid" role="list">
+    <!-- WhatsApp -->
+    <a role="listitem"
+       class="central-card"
+       href="https://wa.me/5511947393315?text=Ol%C3%A1%20Hana%20Beauty!%20Quero%20atendimento%20t%C3%A9cnico."
+       target="_blank" rel="noopener"
+       aria-label="WhatsApp Profissional Hana"
+       data-channel="whatsapp">
+      <span class="central-card__icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c6a34f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" fill="#000000" />
+          <path d="M16 17l-1-1c-1-1-2-2-3-2-1 0-1 1-2 2l-1 1 2 2 5-2z" stroke="#c6a34f" />
+          <path d="M12 6a6 6 0 0 0 0 12" stroke="#c6a34f" />
+        </svg>
+      </span>
+      <h3>WhatsApp Profissional</h3>
+      <p>Atendimento técnico e comercial.</p>
+    </a>
+
+    <!-- Email -->
+    <a role="listitem"
+       class="central-card"
+       href="mailto:contato@hanabeauty.com.br"
+       aria-label="E-mail Hana Beauty"
+       data-channel="email">
+      <img src="{{ 'icon-email.svg' | asset_url }}" alt="E-mail" width="40" height="40" loading="lazy">
+      <h3>E-mail</h3>
+      <p>Suporte, dúvidas e treinamentos.</p>
+    </a>
+
+    <!-- FAQ -->
+    <div role="listitem"
+         class="central-card central-card--faq"
+         aria-label="Central de dúvidas frequentes">
+      <img src="{{ 'icon-faq.svg' | asset_url }}" alt="FAQ" width="40" height="40" loading="lazy">
+      <h3>Dúvidas Frequentes</h3>
+      <p>Respostas imediatas.</p>
+      <div class="central-card__links" aria-label="Links de dúvidas frequentes">
+        <a href="https://www.hanabeauty.com.br/pages/loja-duivdas"
+           data-channel="faq-site"
+           target="_blank"
+           rel="noopener"
+           class="central-card__link">Dúvidas sobre o site</a>
+        <span aria-hidden="true">|</span>
+        <a href="https://www.hanabeauty.com.br/pages/produto-duvidas"
+           data-channel="faq-produtos"
+           target="_blank"
+           rel="noopener"
+           class="central-card__link">Dúvidas sobre produtos</a>
+      </div>
+    </div>
+
+    <!-- Rastreio -->
+    <a role="listitem"
+       class="central-card"
+       href="https://account.hanabeauty.com.br/orders"
+       aria-label="Rastrear Pedido"
+       data-channel="rastreio"
+       target="_blank"
+       rel="noopener">
+      <img src="{{ 'icon-tracking.svg' | asset_url }}" alt="Rastreamento de Pedido" width="40" height="40" loading="lazy">
+      <h3>Rastrear Pedido</h3>
+      <p>Acompanhe seu envio.</p>
+    </a>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Central de Atendimento",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Título", "default": "Central Hana de Atendimento & Consultoria Técnica" },
+    { "type": "text", "id": "subtitle", "label": "Subtítulo", "default": "Estamos aqui para ajudar você e sua equipe com agilidade e precisão." }
+  ],
+  "presets": [{ "name": "Central de Atendimento" }]
+}
+{% endschema %}
+
+{% stylesheet %}
+.hana-central { padding:48px 24px; background:#fff; color:#111; text-align:center; }
+.hana-central__header h1 { font-size:1.8rem; font-weight:600; color:#0a0a0a; letter-spacing:-0.3px; }
+.hana-central__subtitle { color:#555; margin-top:8px; }
+
+.hana-central__grid {
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+  gap:24px; margin-top:32px;
+}
+.central-card {
+  background:#f9f9f9; border-radius:16px; padding:24px; text-decoration:none; color:inherit;
+  transition:transform .25s ease, box-shadow .25s ease; box-shadow:0 2px 6px rgba(0,0,0,.04);
+  outline: none;
+  display:flex; flex-direction:column; align-items:center;
+  gap:8px;
+}
+.central-card__icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; margin:0 auto; }
+.central-card__icon svg { width:40px; height:40px; display:block; }
+.central-card:hover, .central-card:focus {
+  transform:translateY(-4px); box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+.central-card h3 { font-size:1rem; color:#0a0a0a; margin-top:8px; }
+.central-card p { font-size:.92rem; color:#666; margin:0; }
+.central-card--faq { text-align:center; }
+.central-card__links { margin-top:12px; display:flex; align-items:center; justify-content:center; gap:8px; flex-wrap:wrap; font-size:0.9rem; }
+.central-card__link { color:#0a0a0a; font-weight:600; text-decoration:none; position:relative; }
+.central-card__link:hover, .central-card__link:focus { color:#c6a34f; text-decoration:underline; }
+
+/* Mobile */
+@media (max-width: 768px){
+  .hana-central { padding:32px 16px; }
+  .hana-central__grid { gap:16px; }
+}
+{% endstylesheet %}
+
+{% javascript %}
+window.dataLayer = window.dataLayer || [];
+window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+
+document.addEventListener('DOMContentLoaded', function(){
+  // Evento de visualização do hub
+  if (typeof gtag === 'function') {
+    gtag('event', 'contact_hub_view', {
+      event_category: 'support',
+      event_label: 'central_de_atendimento',
+      non_interaction: true
+    });
+  }
+
+  // Click nos canais
+  document.querySelectorAll('[data-channel]').forEach(function(el){
+    el.addEventListener('click', function(){
+      var channel = el.getAttribute('data-channel') || 'unknown';
+      if (typeof gtag === 'function') {
+        gtag('event', 'contact_channel_click', {
+          event_category: 'support',
+          event_label: channel,
+          channel: channel
+        });
+      }
+    });
+  });
+});
+{% endjavascript %}

@@ -1,0 +1,30 @@
+/* HANA BEAUTY - UX CONTRAST v2.0 */
+:root {
+  --hana-black: #0a0a0a;
+  --hana-gold: #c6a34f;
+  --hana-magenta: #d63484;
+  --hana-white: #f9f9f9;
+}
+body {
+  background: var(--hana-white);
+  color: #111;
+  font-family: 'Poppins', 'Noto Sans JP', sans-serif;
+  line-height: 1.6;
+}
+/* Botões e interações */
+.btn-primary {
+  background: var(--hana-gold);
+  color: #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, var(--hana-gold) 0%, #e7d38f 100%);
+  color: #000;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_fpadGQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "ecomrise_trust_badge_app_block_JbDUMj": {
+          "type": "shopify://apps/ecomrise-upsell-bundle/blocks/trust-badge-app-block/acb8bab5-decc-4989-8fb5-41075963cdef",
+          "settings": {
+            "message": "Formas de pagamento",
+            "size": 10,
+            "type": "custom",
+            "source_img": "svg",
+            "wimg": 60,
+            "svg": "master,visa,elo,american_express,pix,boleto,",
+            "height": 30
+          }
+        },
+        "custom_liquid_MADVPJ": {
+          "type": "custom_liquid",
+          "name": "Liquid Frete",
+          "settings": {
+            "custom_liquid": "{% render 'hb-dynamic-free-shipping-banner' %}"
+          }
+        },
+        "essential_upsell_app_block_AqaXYQ": {
+          "type": "shopify://apps/essential-upsell/blocks/app-block/50627fd9-24fd-4250-8614-accc12826d80",
+          "settings": {}
+        },
+        "custom_liquid_Vp7qHa": {
+          "type": "custom_liquid",
+          "name": "Liquid WhatsApp",
+          "settings": {
+            "custom_liquid": "{% render 'hb-professional-program' %}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "essential_countdown_app_block_722378e8": {
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_fpadGQ",
+        "price",
+        "essential_countdown_app_block_722378e8",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "ecomrise_trust_badge_app_block_JbDUMj",
+        "custom_liquid_MADVPJ",
+        "essential_upsell_app_block_AqaXYQ",
+        "custom_liquid_Vp7qHa",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1742175823d0242450": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17421758340c412aae": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Produtos Relacionados",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "17488892127d983a1f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_L9CFNR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_L9CFNR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1742175823d0242450",
+    "17421758340c412aae",
+    "related-products",
+    "17488892127d983a1f"
+  ]
+}

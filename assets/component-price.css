@@ -1,0 +1,178 @@
+.price {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  color: rgb(var(--color-foreground));
+}
+
+.price > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.price.price--unavailable {
+  visibility: hidden;
+}
+
+.price--end {
+  text-align: right;
+}
+
+.price .price-item {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+}
+
+.price__regular .price-item--regular {
+  margin-right: 0;
+}
+
+.price:not(.price--show-badge) .price-item--last:last-of-type {
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .price {
+    margin-bottom: 0;
+  }
+}
+
+.price--large {
+  font-size: 1.6rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  letter-spacing: 0.13rem;
+}
+
+@media screen and (min-width: 750px) {
+  .price--large {
+    font-size: 1.8rem;
+  }
+}
+
+.price--sold-out .price__availability,
+.price__regular {
+  display: block;
+}
+
+.price__sale,
+.price__availability,
+.price .price__badge-sale,
+.price .price__badge-sold-out,
+.price--on-sale .price__regular,
+.price--on-sale .price__availability {
+  display: none;
+}
+
+.price--sold-out .price__badge-sold-out,
+.price--on-sale .price__badge-sale,
+.volume-pricing--sale-badge .price__badge-sale {
+  display: inline-block;
+}
+
+.volume-pricing--sale-badge .price__badge-sale {
+  margin-left: 0.5rem;
+}
+
+.price--on-sale .price__sale {
+  display: initial;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.price--center {
+  display: initial;
+  justify-content: center;
+}
+
+.price--on-sale .price-item--regular {
+  text-decoration: line-through;
+  color: rgba(var(--color-foreground), 0.75);
+  font-size: 1.3rem;
+}
+
+.unit-price {
+  display: block;
+  font-size: 1.1rem;
+  letter-spacing: 0.04rem;
+  line-height: calc(1 + 0.2 / var(--font-body-scale));
+  margin-top: 0.2rem;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+.hana-discount-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #fdf2f8;
+  color: #be185d;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.price .hana-discount-pill {
+  vertical-align: middle;
+}
+
+.bn-theme .hana-discount-pill {
+  background: rgba(239, 68, 111, 0.15);
+  color: #fecaca;
+  border: 1px solid rgba(248, 113, 113, 0.45);
+}
+
+/* PDP price hierarchy */
+.template-product .product__info-wrapper .price {
+  font-size: 1.4rem;
+}
+
+.template-product .price-item--regular {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.template-product .price-item--sale {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.template-product .hana-discount-pill {
+  margin-left: 8px;
+}
+
+.template-product .hana-price-savings {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #16a34a;
+}
+
+.bn-theme .hana-price-savings {
+  color: #bbf7d0;
+}
+
+.template-product .hana-essential-countdown {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(250, 204, 21, 0.08);
+  color: #facc15;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.template-product .hana-essential-countdown span {
+  font-weight: 500;
+}
+
+.bn-theme .hana-essential-countdown {
+  background: rgba(250, 204, 21, 0.12);
+  color: #fef9c3;
+}
