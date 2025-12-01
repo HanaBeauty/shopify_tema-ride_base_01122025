@@ -12,24 +12,6 @@
     "slideshow_TenFGX": {
       "type": "slideshow",
       "blocks": {
-        "slide_k3JRLb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sokkyoku_Amlash.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/ofertas",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        },
         "slide_rGPiVd": {
           "type": "slide",
           "settings": {
@@ -40,6 +22,24 @@
             "subheading": "",
             "button_label": "",
             "link": "shopify://collections/adesivos-e-removedores",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_k3JRLb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sokkyoku_Amlash.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/ofertas",
             "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-center",
@@ -69,8 +69,8 @@
         }
       },
       "block_order": [
-        "slide_k3JRLb",
         "slide_rGPiVd",
+        "slide_k3JRLb",
         "slide_U7web4"
       ],
       "custom_css": [],
