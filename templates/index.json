@@ -88,13 +88,22 @@
     "multicolumn_7pizfr": {
       "type": "multicolumn",
       "blocks": {
-        "column_VcB6BW": {
+        "column_7jk3fU": {
           "type": "column",
           "settings": {
-            "title": "<strong>100% Seguro</strong>",
-            "text": "<p>Seus dados estão seguros conosco.</p>",
+            "title": "<strong>SP Frete Grátis</strong>",
+            "text": "<p>Em compras acima de R$ 99,00.</p>",
             "link_label": "",
-            "link": "https://www.hanabeauty.com.br/policies/privacy-policy"
+            "link": "https://www.hanabeauty.com.br/pages/frete-entrega"
+          }
+        },
+        "column_HFeHci": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Desconto 3%</strong>",
+            "text": "<p>Pagamento à vista Pix e Boleto</p>",
+            "link_label": "",
+            "link": "https://www.hanabeauty.com.br/pages/formas-de-pagamento"
           }
         },
         "column_PDUxbe": {
@@ -106,11 +115,20 @@
             "link": "https://www.hanabeauty.com.br/pages/formas-de-pagamento"
           }
         },
+        "column_VcB6BW": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>100% Seguro</strong>",
+            "text": "<p>Seus dados estão seguros conosco.</p>",
+            "link_label": "",
+            "link": "https://www.hanabeauty.com.br/policies/privacy-policy"
+          }
+        },
         "column_EzwzCh": {
           "type": "column",
           "settings": {
-            "title": "<strong>Frete Grátis</strong>",
-            "text": "<p>Região Sudeste em compras acima de R$ 199,00.</p>",
+            "title": "<strong>SE Frete Grátis</strong>",
+            "text": "<p>Em compras acima de R$ 199,00.</p>",
             "link_label": "",
             "link": "https://www.hanabeauty.com.br/pages/frete-entrega"
           }
@@ -126,8 +144,10 @@
         }
       },
       "block_order": [
-        "column_VcB6BW",
+        "column_7jk3fU",
+        "column_HFeHci",
         "column_PDUxbe",
+        "column_VcB6BW",
         "column_EzwzCh",
         "column_MPKb8y"
       ],
