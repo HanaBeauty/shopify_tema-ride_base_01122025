@@ -12,6 +12,24 @@
     "slideshow_TenFGX": {
       "type": "slideshow",
       "blocks": {
+        "slide_aMRtgF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/saiba_mais_1.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide_rGPiVd": {
           "type": "slide",
           "settings": {
@@ -39,7 +57,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/ofertas",
+            "link": "shopify://products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml",
             "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-center",
@@ -69,6 +87,7 @@
         }
       },
       "block_order": [
+        "slide_aMRtgF",
         "slide_rGPiVd",
         "slide_k3JRLb",
         "slide_U7web4"
@@ -126,7 +145,6 @@
         },
         "column_EzwzCh": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "<strong>SE Frete Grátis</strong>",
             "text": "<p>Em compras acima de R$ 199,00.</p>",
@@ -136,7 +154,6 @@
         },
         "column_MPKb8y": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "<strong>Clube da Hana</strong>",
             "text": "<p>Acumule pontos e ganhe cashback</p>",
