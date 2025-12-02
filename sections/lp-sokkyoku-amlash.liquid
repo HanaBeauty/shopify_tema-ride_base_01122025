@@ -1,71 +1,84 @@
 <section class="hb-lp-sokkyoku" aria-label="Landing page Adesivo Sokkyoku AmLash">
   <style>
     .hb-lp-sokkyoku {
-      background: #f9fafb;
-      color: #111;
+      background: #ffffff;
+      color: #111827;
     }
+
     .hb-lp-sokkyoku .hb-lp-section {
       padding: 48px 0;
     }
+
     .hb-lp-sokkyoku .hb-lp-hero {
       padding: 56px 0;
-      background: linear-gradient(135deg, #0f172a 0%, #111827 40%, #0b1221 100%);
-      color: #f9fafb;
+      background: linear-gradient(135deg, #370018 0%, #bf1b5a 40%, #e61e64 100%);
+      color: #fdf2f8;
     }
+
     .hb-lp-sokkyoku .hb-lp-hero__grid {
       display: grid;
       gap: 32px;
       align-items: center;
     }
+
     @media (min-width: 768px) {
       .hb-lp-sokkyoku .hb-lp-hero__grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
+
     .hb-lp-sokkyoku .hb-eyebrow {
       letter-spacing: 0.08em;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 0.85rem;
-      color: #a5b4fc;
+      color: #ffe4ef;
       margin-bottom: 12px;
       display: inline-flex;
       gap: 8px;
       align-items: center;
     }
+
     .hb-lp-sokkyoku .hb-eyebrow svg {
       width: 16px;
       height: 16px;
       color: currentColor;
     }
+
     .hb-lp-sokkyoku h1,
     .hb-lp-sokkyoku h2,
     .hb-lp-sokkyoku h3 {
       margin-bottom: 16px;
       line-height: 1.2;
     }
+
     .hb-lp-sokkyoku h1 {
       font-size: clamp(2rem, 4vw, 2.75rem);
-      color: #fff;
+      color: #ffffff;
     }
+
     .hb-lp-sokkyoku h2 {
       font-size: clamp(1.5rem, 3.2vw, 2rem);
-      color: #0f172a;
+      color: #111827;
     }
+
     .hb-lp-sokkyoku h3 {
       font-size: 1.1rem;
       color: #111827;
     }
+
     .hb-lp-sokkyoku p {
       margin-bottom: 14px;
       color: #1f2937;
     }
+
     .hb-lp-sokkyoku .hb-tagline {
-      color: #c7d2fe;
+      color: #ffe4ef;
       font-size: 1.05rem;
       margin-bottom: 20px;
       max-width: 640px;
     }
+
     .hb-lp-sokkyoku .hb-button-group {
       display: flex;
       flex-wrap: wrap;
@@ -73,33 +86,38 @@
       align-items: center;
       margin-top: 18px;
     }
+
     .hb-lp-sokkyoku .hb-hero-meta {
       display: grid;
       gap: 12px;
       margin-top: 20px;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     }
+
     .hb-lp-sokkyoku .hb-card {
-      background: #fff;
+      background: #ffffff;
       border-radius: 14px;
       padding: 18px;
       box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
     }
+
     .hb-lp-sokkyoku .hb-pill {
       display: inline-flex;
       align-items: center;
       gap: 8px;
       padding: 8px 12px;
-      background: #e0f2fe;
-      color: #0f172a;
+      background: #ffe4ef;
+      color: #370018;
       border-radius: 999px;
       font-weight: 600;
       font-size: 0.95rem;
     }
+
     .hb-lp-sokkyoku .hb-grid {
       display: grid;
       gap: 20px;
     }
+
     @media (min-width: 768px) {
       .hb-lp-sokkyoku .hb-grid.cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -108,6 +126,7 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
       }
     }
+
     .hb-lp-sokkyoku .hb-list {
       list-style: none;
       padding: 0;
@@ -115,81 +134,103 @@
       display: grid;
       gap: 14px;
     }
+
     .hb-lp-sokkyoku .hb-list__item {
       display: grid;
       grid-template-columns: auto 1fr;
       gap: 12px;
       align-items: start;
     }
+
     .hb-lp-sokkyoku .hb-icon-check {
       width: 20px;
       height: 20px;
       color: #16a34a;
       flex-shrink: 0;
     }
+
     .hb-lp-sokkyoku .hb-subtle {
       color: #4b5563;
       font-size: 0.98rem;
     }
+
     .hb-lp-sokkyoku .hb-highlight {
-      color: #0ea5e9;
+      color: #e61e64;
       font-weight: 700;
     }
+
     .hb-lp-sokkyoku .hb-muted-bg {
-      background: #eef2ff;
+      background: #fff5f8;
     }
+
     .hb-lp-sokkyoku .hb-quote {
-      border-left: 4px solid #4f46e5;
+      border-left: 4px solid #bf1b5a;
       padding-left: 14px;
-      color: #0f172a;
+      color: #111827;
       font-weight: 600;
     }
+
     .hb-lp-sokkyoku .hb-testimonial {
       display: grid;
       gap: 8px;
     }
+
     .hb-lp-sokkyoku .hb-faq details {
       border: 1px solid #e5e7eb;
       border-radius: 10px;
       padding: 14px 16px;
-      background: #fff;
+      background: #ffffff;
       box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
     }
+
     .hb-lp-sokkyoku .hb-faq summary {
       cursor: pointer;
       font-weight: 700;
-      color: #0f172a;
+      color: #111827;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
+
     .hb-lp-sokkyoku .hb-faq summary::-webkit-details-marker {
       display: none;
     }
+
     .hb-lp-sokkyoku .hb-faq summary:after {
       content: "+";
       font-weight: 700;
       margin-left: 12px;
     }
+
     .hb-lp-sokkyoku .hb-faq details[open] summary:after {
       content: "−";
     }
+
     .hb-lp-sokkyoku .hb-faq p {
       margin-top: 10px;
     }
+
     .hb-lp-sokkyoku .hb-footer {
       text-align: center;
       padding: 36px 0 48px;
     }
+
     .hb-lp-sokkyoku .hb-ribbon {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: #0f172a;
-      color: #e0f2fe;
+      background: #370018;
+      color: #ffe4ef;
       padding: 10px 14px;
       border-radius: 12px;
       box-shadow: 0 10px 28px rgba(15, 23, 42, 0.25);
+    }
+
+    .hb-lp-sokkyoku .hb-metric {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #111827;
+      margin-bottom: 4px;
     }
   </style>
 
@@ -203,30 +244,30 @@
             </svg>
             Performance premium para estúdios exigentes
           </div>
-          <h1>{{ settings.hero_title | escape }}</h1>
-          <p class="hb-tagline">{{ settings.hero_subheadline }}</p>
+          <h1>{{ section.settings.hero_title | escape }}</h1>
+          <p class="hb-tagline">{{ section.settings.hero_subheadline }}</p>
           <div class="hb-button-group">
-            <a class="button" href="{{ settings.hero_cta_url | escape }}">{{ settings.hero_cta_text | escape }}</a>
+            <a class="button" href="{{ section.settings.hero_cta_url | escape }}">{{ section.settings.hero_cta_text | escape }}</a>
             <span class="hb-pill">Secagem 1–2s · Retenção profissional 60 dias</span>
           </div>
           <div class="hb-hero-meta">
             <div class="hb-card">
               <p class="hb-subtle">Técnicas</p>
-              <p class="h3">Fio a fio · Híbrido · Volume Russo</p>
+              <p class="hb-metric">Fio a fio · Híbrido · Volume Russo</p>
             </div>
             <div class="hb-card">
               <p class="hb-subtle">Viscosidade</p>
-              <p class="h3">200–250 mPa·s</p>
+              <p class="hb-metric">200–250 mPa·s</p>
             </div>
             <div class="hb-card">
               <p class="hb-subtle">Retenção</p>
-              <p class="h3">45–60 dias</p>
+              <p class="hb-metric">45–60 dias</p>
             </div>
           </div>
         </div>
         <div>
-          {% if settings.hero_image != blank %}
-            {{ settings.hero_image | image_url: width: 1400 | image_tag: class: 'hb-lp-hero__image', loading: 'lazy' }}
+          {% if section.settings.hero_image != blank %}
+            {{ section.settings.hero_image | image_url: width: 1400 | image_tag: class: 'hb-lp-hero__image', loading: 'lazy' }}
           {% else %}
             <div class="hb-card hb-muted-bg">
               <p class="hb-subtle">Adicione uma imagem premium do Adesivo Sokkyoku AmLash para reforçar a autoridade visual.</p>
@@ -270,11 +311,11 @@
             <p class="hb-subtle">Reforce a proposta de valor com métricas que impactam receita e fidelização.</p>
             <div class="hb-grid cols-2">
               <div>
-                <p class="h2">60 dias</p>
+                <p class="hb-metric">60 dias</p>
                 <p class="hb-subtle">Retenção potencial quando aplicado com técnica correta.</p>
               </div>
               <div>
-                <p class="h2">30–50</p>
+                <p class="hb-metric">30–50</p>
                 <p class="hb-subtle">Aplicações por frasco garantindo ROI previsível.</p>
               </div>
             </div>
@@ -429,7 +470,7 @@
     <div class="page-width">
       <div class="hb-ribbon">
         <span>Pronta para lotar a agenda com retenção de até 60 dias?</span>
-        <a class="button" href="{{ settings.hero_cta_url | escape }}">{{ settings.hero_cta_text | escape }}</a>
+        <a class="button" href="{{ section.settings.hero_cta_url | escape }}">{{ section.settings.hero_cta_text | escape }}</a>
       </div>
     </div>
   </footer>
@@ -469,7 +510,7 @@
       "type": "url",
       "id": "hero_cta_url",
       "label": "URL do CTA",
-      "default": "https://www.hanabeauty.com.br/products/adesivo-sokkyoku-amlash"
+      "default": "https://www.hanabeauty.com.br/products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml"
     }
   ],
   "blocks": [
