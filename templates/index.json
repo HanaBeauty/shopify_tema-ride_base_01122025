@@ -145,6 +145,7 @@
         },
         "column_EzwzCh": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "<strong>SE Frete Grátis</strong>",
             "text": "<p>Em compras acima de R$ 199,00.</p>",
@@ -154,6 +155,7 @@
         },
         "column_MPKb8y": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "<strong>Clube da Hana</strong>",
             "text": "<p>Acumule pontos e ganhe cashback</p>",
