@@ -22,7 +22,7 @@
             "subheading": "",
             "button_label": "",
             "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "show_text_box": false,
             "box_align": "middle-center",
             "text_alignment": "center",
