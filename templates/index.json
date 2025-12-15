@@ -119,8 +119,8 @@
         "column_HFeHci": {
           "type": "column",
           "settings": {
-            "title": "<strong>Desconto 3%</strong>",
-            "text": "<p>Pagamento à vista Pix e Boleto</p>",
+            "title": "<strong>Desconto 5%</strong>",
+            "text": "<p>Pagamento à vista no Pix</p>",
             "link_label": "",
             "link": "https://www.hanabeauty.com.br/pages/formas-de-pagamento"
           }
