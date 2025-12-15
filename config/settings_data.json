@@ -278,6 +278,25 @@
         "type": "shopify://apps/ecomrise-upsell-bundle/blocks/sale-notifications-app-embed/acb8bab5-decc-4989-8fb5-41075963cdef",
         "disabled": true,
         "settings": {}
+      },
+      "12711036393401670242": {
+        "type": "shopify://apps/whatsup-whatsapp-button/blocks/float-button/7e68b675-2a94-4586-a750-8b8ca8c9d069",
+        "disabled": false,
+        "settings": {
+          "alignment": "right",
+          "horizon_dis": 24,
+          "bottom_dis": 16,
+          "z_index": 100,
+          "scale": 100,
+          "drop_shadow": true,
+          "mobile_overrides": false,
+          "horizon_dis_mobile": 24,
+          "bottom_dis_mobile": 16,
+          "z_index_mobile": 100,
+          "scale_mobile": 100,
+          "drop_shadow_mobile": true,
+          "visibility_mobile": true
+        }
       }
     },
     "color_schemes": {
