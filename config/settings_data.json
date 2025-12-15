@@ -197,11 +197,6 @@
         "disabled": false,
         "settings": {}
       },
-      "11521338106245790446": {
-        "type": "shopify://apps/ecomrise/blocks/app-embed/acb8bab5-decc-4989-8fb5-41075963cdef",
-        "disabled": false,
-        "settings": {}
-      },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
@@ -214,11 +209,6 @@
       },
       "1996061711396120121": {
         "type": "shopify://apps/uppromote-affiliate/blocks/message-bar/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
-        "disabled": false,
-        "settings": {}
-      },
-      "17329874183946385085": {
-        "type": "shopify://apps/ecomrise/blocks/sale-notifications-app-embed/acb8bab5-decc-4989-8fb5-41075963cdef",
         "disabled": false,
         "settings": {}
       },
@@ -276,6 +266,16 @@
       },
       "924744721961926860": {
         "type": "shopify://apps/freshmarketer-email-sms/blocks/freshmarketer-onsite-js/6fac208c-ff40-4b41-be01-e5940014bcb0",
+        "disabled": true,
+        "settings": {}
+      },
+      "11521338106245790446": {
+        "type": "shopify://apps/ecomrise-upsell-bundle/blocks/app-embed/acb8bab5-decc-4989-8fb5-41075963cdef",
+        "disabled": true,
+        "settings": {}
+      },
+      "17329874183946385085": {
+        "type": "shopify://apps/ecomrise-upsell-bundle/blocks/sale-notifications-app-embed/acb8bab5-decc-4989-8fb5-41075963cdef",
         "disabled": true,
         "settings": {}
       }
