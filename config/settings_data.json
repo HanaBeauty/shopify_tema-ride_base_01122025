@@ -232,11 +232,6 @@
         "disabled": false,
         "settings": {}
       },
-      "924744721961926860": {
-        "type": "shopify://apps/freshmarketer-email-sms/blocks/freshmarketer-onsite-js/6fac208c-ff40-4b41-be01-e5940014bcb0",
-        "disabled": false,
-        "settings": {}
-      },
       "15891388892413262111": {
         "type": "shopify://apps/essential-loyalty/blocks/theme-extension/bb1b2244-edbc-4be2-b271-04fde65a5c2f",
         "disabled": false,
@@ -273,11 +268,16 @@
       },
       "14717942367183170102": {
         "type": "shopify://apps/chizy-ai-chatbot/blocks/chat-bubble/fd61935c-4053-4b60-9385-bcbc00e2b2be",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "api_base_url": "https://ai-agent.chizy.io",
           "app_url": "https://chatbot.chizy.io"
         }
+      },
+      "924744721961926860": {
+        "type": "shopify://apps/freshmarketer-email-sms/blocks/freshmarketer-onsite-js/6fac208c-ff40-4b41-be01-e5940014bcb0",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
