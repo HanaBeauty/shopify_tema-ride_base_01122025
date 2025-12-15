@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/saiba_mais_1.png",
             "image_overlay_opacity": 0,
             "heading": "",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
@@ -36,7 +36,7 @@
             "image": "shopify://shop_images/banner-horizontal-01_resized.png",
             "image_overlay_opacity": 0,
             "heading": "",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "shopify://collections/adesivos-e-removedores",
@@ -54,7 +54,7 @@
             "image": "shopify://shop_images/Sokkyoku_Amlash.png",
             "image_overlay_opacity": 0,
             "heading": "",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "shopify://products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml",
@@ -73,7 +73,7 @@
             "image": "shopify://shop_images/Clin-Clean-Amlash_8b987e64-f683-424b-af48-8ae8edc699f4.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
@@ -95,12 +95,12 @@
       "custom_css": [],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": ""
       }
     },
@@ -119,8 +119,8 @@
         "column_HFeHci": {
           "type": "column",
           "settings": {
-            "title": "<strong>Desconto 5%</strong>",
-            "text": "<p>Pagamento à vista no Pix</p>",
+            "title": "<strong>Desconto 3%</strong>",
+            "text": "<p>Pagamento à vista Pix e Boleto</p>",
             "link_label": "",
             "link": "https://www.hanabeauty.com.br/pages/formas-de-pagamento"
           }
