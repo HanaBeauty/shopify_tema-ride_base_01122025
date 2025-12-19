@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_fUwhtG": {
+          "type": "announcement",
+          "settings": {
+            "text": "NÃO TEREMOS EXPEDIÇÃO EM: 24 a 28/12 e 31/12 a 04/01",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -39,6 +46,7 @@
         }
       },
       "block_order": [
+        "announcement_fUwhtG",
         "announcement-bar-0",
         "announcement_gfbWXQ",
         "announcement_TeWAi3"
