@@ -12,6 +12,24 @@
     "slideshow_TenFGX": {
       "type": "slideshow",
       "blocks": {
+        "slide_NJBU7Q": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Cronogram_Logistico_de_Final_de_Ano_Hana_Beauty.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide_aMRtgF": {
           "type": "slide",
           "settings": {
@@ -87,6 +105,7 @@
         }
       },
       "block_order": [
+        "slide_NJBU7Q",
         "slide_aMRtgF",
         "slide_rGPiVd",
         "slide_k3JRLb",
