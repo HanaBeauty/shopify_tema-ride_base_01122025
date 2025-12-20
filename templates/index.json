@@ -12,6 +12,24 @@
     "slideshow_TenFGX": {
       "type": "slideshow",
       "blocks": {
+        "slide_k3JRLb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sokkyoku_Amlash.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide_NJBU7Q": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "color_scheme": "scheme-1"
           }
         },
-        "slide_k3JRLb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sokkyoku_Amlash.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        },
         "slide_U7web4": {
           "type": "slide",
           "disabled": true,
@@ -105,10 +105,10 @@
         }
       },
       "block_order": [
+        "slide_k3JRLb",
         "slide_NJBU7Q",
         "slide_aMRtgF",
         "slide_rGPiVd",
-        "slide_k3JRLb",
         "slide_U7web4"
       ],
       "custom_css": [],
