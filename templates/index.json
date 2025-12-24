@@ -32,6 +32,7 @@
         },
         "slide_aMRtgF": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/saiba_mais_1.png",
             "image_overlay_opacity": 0,
@@ -68,6 +69,7 @@
         },
         "slide_rGPiVd": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-horizontal-01_resized.png",
             "image_overlay_opacity": 0,
