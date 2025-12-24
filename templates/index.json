@@ -12,24 +12,6 @@
     "slideshow_TenFGX": {
       "type": "slideshow",
       "blocks": {
-        "slide_aMRtgF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/saiba_mais_1.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
-            "button_style_secondary": true,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        },
         "slide_NJBU7Q": {
           "type": "slide",
           "settings": {
@@ -41,6 +23,24 @@
             "button_label": "",
             "link": "shopify://collections/all",
             "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_aMRtgF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/saiba_mais_1.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
+            "button_style_secondary": true,
             "show_text_box": false,
             "box_align": "middle-center",
             "text_alignment": "center",
@@ -105,8 +105,8 @@
         }
       },
       "block_order": [
-        "slide_aMRtgF",
         "slide_NJBU7Q",
+        "slide_aMRtgF",
         "slide_k3JRLb",
         "slide_rGPiVd",
         "slide_U7web4"
