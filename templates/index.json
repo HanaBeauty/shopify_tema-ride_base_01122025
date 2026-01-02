@@ -12,8 +12,27 @@
     "slideshow_TenFGX": {
       "type": "slideshow",
       "blocks": {
+        "slide_k3JRLb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sokkyoku_Amlash.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide_NJBU7Q": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Cronogram_Logistico_de_Final_de_Ano_Hana_Beauty.png",
             "image_overlay_opacity": 0,
@@ -42,24 +61,6 @@
             "button_label": "",
             "link": "shopify://products/clin-clean-amlash-para-extensao-de-cilios",
             "button_style_secondary": true,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        },
-        "slide_k3JRLb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sokkyoku_Amlash.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://products/adesivo-sokkyoku-amlash-para-extensao-de-cilios-5ml",
-            "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-center",
             "text_alignment": "center",
@@ -107,9 +108,9 @@
         }
       },
       "block_order": [
+        "slide_k3JRLb",
         "slide_NJBU7Q",
         "slide_aMRtgF",
-        "slide_k3JRLb",
         "slide_rGPiVd",
         "slide_U7web4"
       ],
