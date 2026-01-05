@@ -65,7 +65,7 @@
             "title_color": "#000000",
             "font_size_title": 14,
             "input_color": "#000000",
-            "border_radius": 3,
+            "border_radius": 20,
             "input_padding": 5,
             "placeholder_zip": "CEP",
             "button_background_color": "#e61d64",
