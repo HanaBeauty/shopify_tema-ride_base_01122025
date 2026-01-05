@@ -251,11 +251,6 @@
           "disable_shadow_root_globally": false
         }
       },
-      "12439146293631897289": {
-        "type": "shopify://apps/blockify-fraud-filter/blocks/app_embed/2e3e0ba5-0e70-447a-9ec5-3bf76b5ef12e",
-        "disabled": false,
-        "settings": {}
-      },
       "14717942367183170102": {
         "type": "shopify://apps/chizy-ai-chatbot/blocks/chat-bubble/fd61935c-4053-4b60-9385-bcbc00e2b2be",
         "disabled": true,
@@ -297,6 +292,11 @@
           "drop_shadow_mobile": true,
           "visibility_mobile": true
         }
+      },
+      "5043070786800498925": {
+        "type": "shopify://apps/sw-back-in-stock/blocks/bis-switch/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
