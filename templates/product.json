@@ -58,6 +58,25 @@
             "show_gift_card_recipient": true
           }
         },
+        "calculo_de_frete_inteligente_star_rating_JUUfcb": {
+          "type": "shopify://apps/calculo-de-frete-inteligente/blocks/star_rating/b938cb20-6b7e-480d-a6dd-585b462088c2",
+          "settings": {
+            "shipping_calculator_heading": "Cálculo de frete",
+            "title_color": "#000000",
+            "font_size_title": 14,
+            "input_color": "#000000",
+            "border_radius": 3,
+            "input_padding": 5,
+            "placeholder_zip": "CEP",
+            "button_background_color": "#e61d64",
+            "button_color": "#fff",
+            "button_width": 100,
+            "calculate_button_text": "Calcular",
+            "font_size_button": 14,
+            "shipping_list_color": "#000000",
+            "date_format_display": "days"
+          }
+        },
         "ecomrise_trust_badge_app_block_JbDUMj": {
           "type": "shopify://apps/ecomrise-upsell-bundle/blocks/trust-badge-app-block/acb8bab5-decc-4989-8fb5-41075963cdef",
           "disabled": true,
@@ -124,6 +143,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "calculo_de_frete_inteligente_star_rating_JUUfcb",
         "ecomrise_trust_badge_app_block_JbDUMj",
         "custom_liquid_X9r6QG",
         "custom_liquid_MADVPJ",
