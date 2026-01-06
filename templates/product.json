@@ -69,12 +69,12 @@
             "input_padding": 5,
             "placeholder_zip": "CEP",
             "button_background_color": "#e61d64",
-            "button_color": "#fff",
+            "button_color": "#ffffff",
             "button_width": 100,
             "calculate_button_text": "Calcular",
             "font_size_button": 14,
             "shipping_list_color": "#000000",
-            "date_format_display": "days"
+            "date_format_display": "date"
           }
         },
         "ecomrise_trust_badge_app_block_JbDUMj": {
