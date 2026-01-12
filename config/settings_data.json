@@ -286,7 +286,7 @@
       },
       "12711036393401670242": {
         "type": "shopify://apps/whatsup-whatsapp-button/blocks/float-button/7e68b675-2a94-4586-a750-8b8ca8c9d069",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "alignment": "right",
           "horizon_dis": 24,
