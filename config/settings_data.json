@@ -321,10 +321,10 @@
           "popup_text_box_color": "#ffffff",
           "popup_text": "Olá! Como posso te ajudar hoje?",
           "live_chat_prefill_message": "Conte-me mais sobre [PRODUCT_NAME]",
-          "whatsapp_button_bg_color": "#242833",
+          "whatsapp_button_bg_color": "#e61d64",
           "button_size": "medium",
           "logo_type": "whatsapp",
-          "button_background_color": "#25d366",
+          "button_background_color": "#e61d64",
           "button_position_horizontal": 97,
           "button_position_vertical": 97,
           "welcome_message": "Olá! Tenho uma pergunta."
