@@ -551,7 +551,7 @@
   "shopify": {
     "checkout": {
       "marketing": {
-        "accept_sms_checkbox_label": "Enviar atualizações e ofertas para mim por WhatsApp",
+        "accept_sms_checkbox_label": "Enviar atualizações e ofertas para mim por SMS / WhatsApp",
         "accept_marketing_checkbox_label": "Enviar atualizações e ofertas para mim por e-mail"
       }
     },
