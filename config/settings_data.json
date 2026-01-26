@@ -323,7 +323,7 @@
           "live_chat_prefill_message": "Conte-me mais sobre [PRODUCT_NAME]",
           "whatsapp_button_bg_color": "#242833",
           "button_size": "medium",
-          "logo_type": "whatflow",
+          "logo_type": "whatsapp",
           "button_background_color": "#25d366",
           "button_position_horizontal": 97,
           "button_position_vertical": 97,
