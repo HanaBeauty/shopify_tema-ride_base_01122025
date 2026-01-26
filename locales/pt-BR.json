@@ -552,7 +552,12 @@
     "checkout": {
       "marketing": {
         "accept_sms_checkbox_label": "Enviar atualizações e ofertas para mim por SMS / WhatsApp",
-        "accept_marketing_checkbox_label": "Enviar atualizações e ofertas para mim por e-mail"
+        "accept_marketing_checkbox_label": "Enviar atualizações e ofertas para mim por e-mail",
+        "sms": {
+          "disclaimer": {
+            "description_html": "Ao se inscrever por SMS / WhatsApp, você concorda em receber mensagens de marketing automáticas e recorrentes, incluindo lembretes de carrinho, no número de celular informado. Dar sua permissão não é uma condição para a compra. Responda \"STOP\" para cancelar a inscrição. Responda \"HELP\" para receber ajuda. A frequência das mensagens varia. Pode haver a cobrança de tarifas de mensagens e dados. Consulte as Políticas  de Privacidade e Termos de Serviços."
+          }
+        }
       }
     },
     "links": {
