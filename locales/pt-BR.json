@@ -551,7 +551,8 @@
   "shopify": {
     "checkout": {
       "marketing": {
-        "accept_sms_checkbox_label": "Quero receber notificações importantes pelo WhatsApp"
+        "accept_sms_checkbox_label": "Enviar atualizações e ofertas para mim por WhatsApp",
+        "accept_marketing_checkbox_label": "Enviar atualizações e ofertas para mim por e-mail"
       }
     },
     "links": {
