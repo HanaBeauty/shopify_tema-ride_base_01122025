@@ -558,6 +558,9 @@
             "description_html": "Ao se inscrever por SMS / WhatsApp, você concorda em receber mensagens de marketing automáticas e recorrentes, incluindo lembretes de carrinho, no número de celular informado. Dar sua permissão não é uma condição para a compra. Responda \"STOP\" para cancelar a inscrição. Responda \"HELP\" para receber ajuda. A frequência das mensagens varia. Pode haver a cobrança de tarifas de mensagens e dados. Consulte as Políticas  de Privacidade e Termos de Serviços."
           }
         }
+      },
+      "general": {
+        "submit_for_review_notice_label": "Ao concluir seu pedido, você concorda com nossos {{ terms_of_service }}, {{ refund_policy }}, {{ shipping_policy }} e declara possuir certificação profissional para manuseio dos produtos técnicos adquiridos."
       }
     },
     "links": {
